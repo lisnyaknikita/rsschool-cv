@@ -19,3 +19,19 @@
 - Git
 - Figma
 - Английский - В1
+
+## Учебные проекты
+
+#### ВЕБ-ПРИЛОЖЕНИЕ ДЛЯ ЗАМЕТОК, СПИСКА ДЕЛ И ПИСАНИЕ ДНЕВНИКА "MINOTION”
+
+##### [Ссылка на приложение](https://mi-notion.netlify.app/)
+
+##### [Ссылка на Github проекта](https://github.com/lisnyaknikita/mini-notion)
+
+---
+
+#### ВЕБ-ПРИЛОЖЕНИЕ ДЛЯ ВЕДЕНИЯ ТРЕНИРОВОК
+
+##### [Ссылка на приложение](https://workout-log-orcin.vercel.app/)
+
+##### [Ссылка на Github проекта](https://github.com/lisnyaknikita/workout-log)
