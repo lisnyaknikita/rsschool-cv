@@ -1,2 +1,6 @@
 @import './global.css';
 @import './reset.css';
+@import './header/burger.css';
+@import './header/header.css';
+@import './header/menu.css';
+@import './header/navbar.css';
