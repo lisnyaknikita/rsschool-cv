@@ -1,12 +1,10 @@
 .skills {
   margin-bottom: 80px;
-  /* background-color: #262626; */
 }
 .skills__inner {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 150px; */
   padding: 0 20px;
   overflow: hidden;
   flex-wrap: wrap;
