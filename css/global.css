@@ -1,0 +1,51 @@
+:root {
+  --black: #161616;
+  --grey: #9f9f9f;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--black);
+  color: var(--grey);
+  font-family: 'Outfit', sans-serif;
+}
+
+body.locked {
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
