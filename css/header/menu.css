@@ -1,0 +1,90 @@
+.menu {
+  display: flex;
+  align-items: center;
+  /* margin-left: 40px; */
+  width: 100%;
+}
+
+.menu__item {
+  padding: 10px 0;
+}
+
+.menu__item--email .menu__item-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 0;
+}
+
+.menu__item:hover .menu__item-link {
+  text-decoration: underline;
+}
+
+.menu__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.menu__item:nth-child(2) {
+  margin-left: auto;
+}
+
+.menu__item-link {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .menu {
+    position: fixed;
+    background-color: #121212;
+    left: 50%;
+    top: 0;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    overflow: auto;
+  }
+
+  .menu.active {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    pointer-events: all;
+    justify-content: center;
+    align-items: center;
+    z-index: 22;
+  }
+
+  .menu__item {
+    opacity: 0;
+  }
+
+  .menu.active .menu__item {
+    opacity: 1;
+  }
+
+  .menu.active .menu__item .menu__item-link {
+    font-size: 32px;
+  }
+
+  .menu__item--email .menu__item-link svg {
+    display: none;
+  }
+
+  .menu.active .menu__item:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .menu__item {
+    margin-top: 15px;
+  }
+}
