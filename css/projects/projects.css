@@ -76,3 +76,25 @@
 .projects__item-link:hover {
   background-color: rgb(190, 190, 190);
 }
+
+@media screen and (max-width: 1024px) {
+  .projects__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects__inner-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projects__inner-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}

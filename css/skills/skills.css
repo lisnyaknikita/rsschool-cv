@@ -1,22 +1,28 @@
 .skills {
   margin-bottom: 80px;
-  background-color: #262626;
+  /* background-color: #262626; */
 }
 .skills__inner {
   display: flex;
   align-items: center;
-  overflow: hidden;
-  height: 150px;
+  justify-content: center;
+  /* height: 150px; */
   padding: 0 20px;
-}
-
-.skills__inner ul {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
+  overflow: hidden;
+  flex-wrap: wrap;
   gap: 80px;
 }
 
 .skills__inner ul + ul {
   margin-left: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .skills__inner {
+    gap: 30px;
+  }
+
+  .skills__inner li img {
+    width: 80px;
+  }
 }

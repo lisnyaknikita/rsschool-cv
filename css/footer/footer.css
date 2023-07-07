@@ -1,6 +1,3 @@
-.footer {
-}
-
 .footer__inner {
   display: flex;
   justify-content: space-between;
@@ -24,4 +21,15 @@
 
 .footer__year {
   font-size: 22px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer__inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer__link--img {
+    order: -1;
+  }
 }
