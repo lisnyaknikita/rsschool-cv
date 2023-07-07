@@ -8,7 +8,6 @@
   overflow: hidden;
   height: 150px;
   padding: 0 20px;
-  /* animation: scroll 10s infinite linear; */
 }
 
 .skills__inner ul {
@@ -21,16 +20,3 @@
 .skills__inner ul + ul {
   margin-left: 80px;
 }
-
-/* .skills__inner ul:last-child {
-  animation-delay: 1s;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-} */
